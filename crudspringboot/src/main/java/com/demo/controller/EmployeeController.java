@@ -20,8 +20,7 @@ import com.demo.service.EmployeeService;
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
-	
-	@Autowired
+		@Autowired
 	private EmployeeService employeeService;
 
 	public EmployeeController(EmployeeService employeeService){
